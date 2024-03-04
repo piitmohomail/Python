@@ -13,7 +13,7 @@ Alternatively you can use scipy.signal.butter, which should yield the same resul
 def make_lowpass(
     frequency: int,
     samplerate: int,
-    q_factor: float = 1 / sqrt(2),  # noqa: B008
+    q_factor: float = 1 / sqrt(3),  # noqa: B008
 ) -> IIRFilter:
     """
     Creates a low-pass filter
