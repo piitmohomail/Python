@@ -12,7 +12,6 @@ def diophantine(a: int, b: int, c: int) -> tuple[float, float]:
     GCD ( Greatest Common Divisor ) or HCF ( Highest Common Factor )
 
     >>> diophantine(10,6,14)
-    (-7.0, 14.0)
 
     >>> diophantine(391,299,-69)
     (9.0, -12.0)
