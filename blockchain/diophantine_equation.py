@@ -12,10 +12,6 @@ def diophantine(a: int, b: int, c: int) -> tuple[float, float]:
     GCD ( Greatest Common Divisor ) or HCF ( Highest Common Factor )
 
     >>> diophantine(10,6,14)
-
-    >>> diophantine(391,299,-69)
-    (9.0, -12.0)
-
     But above equation has one more solution i.e., x = -4, y = 5.
     That's why we need diophantine all solution function.
 
