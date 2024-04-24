@@ -15,7 +15,7 @@ def maxpooling(arr: np.ndarray, size: int, stride: int) -> np.ndarray:
     Returns:
         numpy array of maxpooled matrix
     Sample Input Output:
-    >>> maxpooling([[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]], 2, 2)
+    >>> maxpooling([[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]], 2)
     array([[ 6.,  8.],
            [14., 16.]])
     >>> maxpooling([[147, 180, 122],[241, 76, 32],[126, 13, 157]], 2, 1)
